@@ -1,0 +1,21 @@
+.note__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 3rem 0;
+    line-height: 1;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: $s-size;
+    padding: 0 $s-size;    
+    box-shadow: 2px 2px rgb(130, 8, 245);
+}
+
+.note{
+    text-decoration: none;
+    color: black; 
+    font-style: serif;
+    font-weight: 600;  
+    text-align: left;  
+}

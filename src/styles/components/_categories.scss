@@ -1,0 +1,23 @@
+.categoryTitle {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: black;
+    width: 360px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 75px;
+    padding: 0;
+}
+
+.taskCategory{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 75%;
+}

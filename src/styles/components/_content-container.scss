@@ -1,0 +1,8 @@
+.content-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 25px 75px;
+    padding: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+ .box-layout{
+     align-items: center;
+     background: whitesmoke;
+     background-size: contain;
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     justify-content: center;
+     width: 100vw; 
+     color: black;
+     text-align: center;
+ }
+
+ .box-layout__box{
+     background: fade-out($color: black, $amount: .5);
+     border-radius: 32px;
+     padding: $l-size $m-size;
+     text-align: center;
+     width: 45rem;
+ }
+
+ .box-layout__title{
+     margin: 0 0 $m-size 0;
+     line-height: 1;
+     color: white;
+ }
+
+ .loginButtons{
+     display: flex;
+     flex-direction: column;
+     padding: 25px;
+ }
+
+ .loginButton {
+     margin: 5px;
+ }
